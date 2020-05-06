@@ -5,18 +5,14 @@
 
 <form action="./minichat_post.php" method="POST">
 
-    <label for="pseudo">Votre pseudo :
+    <label>Votre pseudo :
         <input type="text" name="pseudo" placeholder="Votre pseudo" />
     </label>
 
-    <label for="password">Votre mot de passe :
-        <input type="password" name="password" placeholder="Votre mot de passe">
+    <label>Votre message :
+        <input type="text" name="messages" placeholder="Votre message">
     </label>
 
     <input type="submit" value="Envoyer" />
 </form>
 
-<div class="container">
-        <p><?php ?></p>
-
-</div>
