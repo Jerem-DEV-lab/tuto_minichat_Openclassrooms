@@ -41,5 +41,5 @@ $req->closeCursor();
 
 // Effectuer ici la requête qui insère le message
 // Puis rediriger vers minichat.php comme ceci :
-// header('Location: index.php');
+header('Location: index.php');
 ?>
