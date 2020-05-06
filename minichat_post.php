@@ -18,8 +18,6 @@ $req = $bdd->prepare('INSERT INTO utilisateurs (pseudo, messages) VALUES(?,?)');
 //on execute la requete sql
 $req->execute(array($_POST['pseudo'], $_POST['messages']));
 //on termine la connexion à la bdd
-$req->closeCursor();
-
 
 // Pour la partie front
 // On ce connecte à la bdd
